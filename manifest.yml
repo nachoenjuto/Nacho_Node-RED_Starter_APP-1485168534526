@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Nacho_Node-RED_Starter_APP
+  host: NachoNodeREDStarterAPP
+  disk_quota: 1024M
+  services:
+  - Nacho_Node-RED_Starter_APP-cloudantNoSQLDB
+  - AlchemyAPI-7q
